@@ -1,0 +1,55 @@
+.header
+{
+  width: 100%;
+  height: 100px;
+  background: lightgreen;
+}
+#container-nav{
+  display: flex;
+  justify-content: flex-start;
+}
+/*
+Mettre plusieurs div séparées par des virgules quand les proprietés sont
+les mêmes pour alleger la page
+*/
+.accueil, .page-1, .page-2, .page-3
+{
+  width: 100%;
+  height: 25%;
+  background: #FAEBD7;
+}
+.container-section{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.aside-jaune
+{
+  width: 15%;
+  height: 400px;
+  background: #FFD700;
+}
+.section
+{
+  width: 70%;
+  height: 400px;
+  background: #00CED1;
+}
+.aside-rouge
+{
+  width: 15%;
+  height: 400px;
+  background: #FF6347;
+}
+.footer1, .footer2
+{
+  width: 33%;
+  height: 100px;
+  background: grey;
+}
+.footer3
+{
+  width: 34%;
+  height: 100px;
+  background: grey;
+}
